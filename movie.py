@@ -3,8 +3,9 @@ class Movie:
         self.value = value
         self.next = next_node
 
-    def get_title(self):
-        return self.value
+    def get_info(self):
+        info = [t for t in self.value]
+        return info
     
     def get_next(self):
         return self.next

@@ -39,9 +39,238 @@
         "cast": ["Jennifer Lopez", "Simu Liu", "Sterling K. Brown"],
         "year": 2024,
         "desc": "In a bleak-sounding future, an A.I. soldier has determined that the only way to end war is to end humanity."
+    },
+    {
+        "title": "Mad Max: Fury Road",
+        "director": "George Miller",
+        "rating": 8.1,
+        "cast": ["Tom Hardy", "Charlize Theron", "Nicholas Hoult"],
+        "year": 2024,
+        "desc": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper and a drifter named Max."
+    },
+    {
+        "title": "Civil War",
+        "director": "Alex Garland",
+        "rating": 7.3,
+        "cast": ["Kirsten Dunst", "Wagner Moura", "Cailee Spaeny"],
+        "year": 2024,
+        "desc": "A journey across a dystopian future America, following a team of military-embedded journalists as they race against time to reach DC before rebel factions descend upon the White House."
     }
 ],
     "adventure": [{
+        "title": "Avatar",
+        "director": "James Cameron",
+        "rating": 7.9,
+        "cast": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"],
+        "year": 2009,
+        "desc": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
+
+    },
+    {
+        "title": "Raiders Of The Lost Arc",
+        "director": "Steven Spielberg",
+        "rating": 8.0,
+        "cast": ["Harrison Ford", "Karen Allen", "Paul Freeman"],
+        "year": 1981,
+        "desc": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before the Nazis can obtain its awesome powers."
+    },
+    {
+        "title": "Indiana Jones And The Temple Of Doom",
+        "director": "Steven Spielberg",
+        "rating": 7.5,
+        "cast": ["Harrison Ford", "Kate Kapshaw", "Ke Huy Quan"],
+        "year": 1984,
+        "desc": "In 1935, Indiana Jones is tasked by Indian villagers with reclaiming a rock stolen from them by a secret cult beneath the catacombs of an ancient palace."
+    },
+    {
+        "title": "Indiana Jones And The Last Crusade",
+        "director": "Steven Spielberg",
+        "rating": 8.2,
+        "cast": ["Harrison Ford", "Alison Doody", "Sean Connery"],
+        "year": 1989,
+        "desc": "In 1938, after his father goes missing while pursuing the Holy Grail, Indiana Jones finds himself up against the Nazis again to stop them from obtaining its powers."
+    },
+    {
+        "title": "Sahara",
+        "director": "Brek Eisner",
+        "rating": 6.1,
+        "cast": ["Matthew McConaughey", "Penélope Cruz", "Steve Zahn"],
+        "year": 2005,
+        "desc": "Master explorer Dirk Pitt goes on the adventure of a lifetime of seeking out a lost Civil War battleship known as the 'Ship of Death' in the deserts of West Africa while helping a WHO doctor being hounded by a ruthless dictator."
+    },
+    {
+        "title": "The Flight Of The Eagle",
+        "director": "Jan Troell",
+        "rating": 7.2,
+        "cast": ["Max von Sydow", "Sverre Anker Ousdal", "Göran Stangertz"],
+        "year": 1982,
+        "desc": "In 1897 Swedish engineer S. A. Andrée with 2 colleagues prepares to fly over the North Pole in his balloon 'Eagle'."
+    },
+    {
+        "title": "Journey to the Center of the Earth",
+        "director": "Henry Levin",
+        "rating": 7.0,
+        "cast": ["James Mason", "Pat Boone", "Arlene Dahl"],
+        "year": 1959,
+        "desc": "An Edinburgh professor and assorted colleagues follow an explorer's trail down an extinct Icelandic volcano to the earth's center."
+    }
+],
+    "comedy": [{
+        "title": "If",
+        "director": "John Krasinski",
+        "rating": 6.7,
+        "cast": ["Cailey Fleming", "Ryan Reynolds", "John Krasinski"],
+        "year": 2024,
+        "desc": "A young girl who goes through a difficult experience begins to see everyone's imaginary friends who have been left behind as their real-life friends have grown up."
+    },
+    {
+        "title": "The Idea Of You",
+        "director": "Michael Showalter",
+        "rating": 6.4,
+        "cast": ["Anne Hathaway", "Nicholas Galitzine", "Ella Rubin"],
+        "year": 2024,
+        "desc": "Solène, a 40-year-old single mom, begins an unexpected romance with 24-year-old Hayes Campbell, the lead singer of August Moon, the hottest boy band on the planet."
+    },
+    {
+        "title": "Mother Of The Bride",
+        "director": "Mark Waters",
+        "rating": 4.8,
+        "cast": ["Brooke Shields", "Miranda Cosgrove", "Benjamin Bratt"],
+        "year": 2024,
+        "desc": "Lana's daughter Emma returns from London and announces that she's getting married next month. Things become more complicated when Lana learns that the man who stole Emma's heart is the son of the man who broke hers years ago."
+    },
+    {
+        "title": "Kinds Of Kindness",
+        "director": "Yorgos Lanthimos",
+        "rating": 6.9,
+        "cast": ["Emma Stone", "Jesse Plemons", "Willem Dafoe"],
+        "year": 2024,
+        "desc": "A man seeks to break free from his predetermined path, a cop questions his wife's demeanor after her return from a supposed drowning, and a woman searches for an extraordinary individual prophesied to become a renowned spiritual guide."
+    },
+    {
+        "title": "Barbie",
+        "director": "Greta Gerwig",
+        "rating": 6.8,
+        "cast": ["Margot Robbie", "Ryan Gosling", "Issa Rae"],
+        "year": 2023,
+        "desc": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans."
+    }
+],
+    "drama": [{
+        "title": "Challengers",
+        "director": "Luca Guadagnino",
+        "rating": 7.4,
+        "cast": ["Mike Faist", "Josh O'Connor", "Zendaya"],
+        "year": 2024,
+        "desc": "Tashi, a former tennis prodigy turned coach, turned her husband into a champion. But to overcome a losing streak, he needs to face his ex-best friend and Tashi's ex-boyfriend."
+    },
+    {
+        "title": "Megalopolis",
+        "director": "Francis Ford Coppola",
+        "rating": 7.0,
+        "cast": ["Adam Driver", "Giancarlo Esposito", "Nathalie Emmanuel"],
+        "year": 2024,
+        "desc": "An architect wants to rebuild New York City as a utopia following a devastating disaster."
+    },
+    {
+        "title": "The Ministry of Ungentlemanly Warfare",
+        "director": "Guy Ritchie",
+        "rating": 6.9,
+        "cast": ["Henry Cavill", "Alan Ritchson", "Alex Pettyfer"],
+        "year": 2024,
+        "desc": "The British military recruits a small group of highly skilled soldiers to strike against German forces behind enemy lines during World War II."
+    },
+    {
+        "title": "The Iron Claw",
+        "director": "Sean Durkin",
+        "rating": 7.6,
+        "cast": ["Zac Efron", "Jeremy Allen White", "Harris Dickinson"],
+        "year": 2023,
+        "desc": "The true story of the inseparable Von Erich brothers, who made history in the intensely competitive world of professional wrestling in the early 1980s."
+    },
+    {
+        "title": "The Apprentice",
+        "director": "Ali Abbasi",
+        "rating": 5.9,
+        "cast": ["Sebastian Stan", "Jeremy Strong", "Maria Bakalova"],
+        "year": 2024,
+        "desc": "The story of how a young Donald Trump started his real estate business in 1970s and 80s New York with the helping hand of infamous lawyer Roy Cohn."
+    },
+    {
+        "title": "Oppenheimer",
+        "director": "Christopher Nolan",
+        "rating": 8.3,
+        "cast": ["Cillian Murphy", "Emily Blunt", "Matt Damon"],
+        "year": 2023,
+        "desc": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb."
+    }
+],
+    "fantasy": [{
+        "title": "Game Of Thrones",
+        "director": "David Benioff, B. Weiss",
+        "rating": 9.2,
+        "cast": ["Emilia Clarke", "Peter Dinklage", "Kit Harington"],
+        "year": 2011,
+        "desc": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia."
+    },
+    {
+        "title": "Godzilla x Kong: The New Empire",
+        "director": "Adam Wingard",
+        "rating": 6.2,
+        "cast": ["Rebecca Hall", "Brian Tyree Henry", "Dan Stevens"],
+        "year": 2024,
+        "desc": "Two ancient titans, Godzilla and Kong, clash in an epic battle as humans unravel their intertwined origins and connection to Skull Island's mysteries."
+    },
+    {
+        "title": "Ghostbusters: Frozen Empire",
+        "director": "Gil Kenan",
+        "rating": 6.2,
+        "cast": ["Paul Rudd", "Carrie Coon", "Finn Wolfhard"],
+        "year": 2024,
+        "desc": "When the discovery of an ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second ice age."
+    },
+    {
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "director": "Peter Jackson",
+        "rating": 8.9,
+        "cast": ["Elijah Wood", "Ian McKellen", "Orlando Bloom"],
+        "year": 2001,
+        "desc": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
+    },
+    {
+        "title": "The Lord of the Rings: The Two Towers",
+        "director": "Peter Jackson",
+        "rating": 8.8,
+        "cast": ["Elijah Wood", "Ian McKellen", "Orlando Bloom", "Viggo Mortensen"],
+        "year": 2002,
+        "desc": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
+    },
+    {
+        "title": "The Lord of the Rings: The Return Of The King",
+        "director": "Peter Jackson",
+        "rating": 9.0,
+        "cast": ["Elijah Wood", "Ian McKellen", "Orlando Bloom", "Viggo Mortensen"],
+        "year": 2003,
+        "desc": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+    }
+],
+    "horror": [{
+
+    }
+],
+    "musical": [{
+
+    }
+],
+    "parody": [{
+
+    }
+],
+    "sci-fi": [{
+
+    }
+],
+    "western": [{
 
     }]
 }
