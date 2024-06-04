@@ -41,7 +41,7 @@ print(r'''\
 ''')
 
 def prompt_for_input():
-    user_input = input("\nWich category of movies would you like to look for?\n")
+    user_input = input("\n\nWich category of movies would you like to look for?\n")
     if user_input == '':
         print("\nEnter a character to search for a category...\n")
         prompt_for_input()
@@ -52,8 +52,16 @@ def prompt_for_input():
 
 def prompt_if_no_entries():
     while len(res) == 0:
-        print("\nNo entries for your search...try again\n")
-        prompt_for_input()
+        list_input = input("\nNo entries for your search...do you wish to see a list of genres available? y/n\n\n")
+        while list_input not in ["y", "n"]:
+            list_input = input("\nPlease enter y/n\n")
+        if list_input == "y":
+            string = "|"
+            for category in categories:
+                print(string + category.capitalize() + string, end=" ")
+            prompt_for_input()
+        else:
+            prompt_for_input()
 
 def choose_category():
     if len(res) < 2:
