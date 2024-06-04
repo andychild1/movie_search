@@ -255,22 +255,250 @@
     }
 ],
     "horror": [{
-
+        "title": "The Shining",
+        "director": "Stanley Kubrik",
+        "rating": 8.4,
+        "cast": ["Jack Nicholson", "Shelley Duvall", "Danny Lloyd"],
+        "year": 1980,
+        "desc": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future."
+    },
+    {
+        "title": "Alien",
+        "director": "Ridley Scott",
+        "rating": 8.5,
+        "cast": ["Sigourney Weaver", "Tom Skerritt", "John Hurt"],
+        "year": 1979,
+        "desc": "The crew of a commercial spacecraft encounters a deadly lifeform after investigating a mysterious transmission of unknown origin."
+    },
+    {
+        "title": "I Am Legend",
+        "director": "Francis Lawrence",
+        "rating": 7.2,
+        "cast": ["Will Smith", "Alice Braga", "Charlie Tahan"],
+        "year": 2007,
+        "desc": "Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure."
+    },
+    {
+        "title": "Psyco",
+        "director": "Alfred Hitchcock",
+        "rating": 8.5,
+        "cast": ["Anthony Perkins", "Janet Leigh", "Vera Miles"],
+        "year": 1960,
+        "desc": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run and checks into a remote motel run by a young man under the domination of his mother."
+    },
+    {
+        "title": "The Thing",
+        "director": "John Carpenter",
+        "rating": 8.2,
+        "cast": ["Kurt Russell", "Wilford Brimley", "Keith David"],
+        "year": 1982,
+        "desc": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims."
+    },
+    {
+        "title": "Saw",
+        "director": "James Wan",
+        "rating": 7.6,
+        "cast": ["Cary Elwes", "Leigh Whannell", "Danny Glover"],
+        "year": 2004,
+        "desc": "Two strangers awaken in a room with no recollection of how they got there, and soon discover they're pawns in a deadly game perpetrated by a notorious serial killer."
+    },
+    {
+        "title": "The Exsorcist",
+        "director": "William Friedkin",
+        "rating": 8.1,
+        "cast": ["Ellen Burstyn", "Max von Sydow", "Linda Blair"],
+        "year": 1973,
+        "desc": "When a young girl is possessed by a mysterious entity, her mother seeks the help of two Catholic priests to save her life."
+    },
+    {
+        "title": "Scream",
+        "director": "Wes Craven",
+        "rating": 7.4,
+        "cast": ["Neve Campbell", "Courteney Cox", "David Arquette"],
+        "year": 1993,
+        "desc": "A year after the murder of her mother, a teenage girl is terrorized by a masked killer who targets her and her friends by using scary movies as part of a deadly game."
+    },
+    {
+        "title": "The Ring",
+        "director": "Gore Verbinski",
+        "rating": 7.1,
+        "cast": ["Naomi Watts", "Martin Henderson", "Brian Cox"],
+        "year": 2002,
+        "desc": "A journalist must investigate a mysterious videotape which seems to cause the death of anyone one week to the day after they view it."
     }
 ],
     "musical": [{
-
+        "title": "Emilia Perez",
+        "director": "Jacques Audiard",
+        "rating": 7.1,
+        "cast": ["Karla Sofía Gascón", "Selena Gomez", "Zoe Saldana"],
+        "year": 2024,
+        "desc": "Mexico, today. Lawyer Rita receives an unexpected offer. She has to help a feared cartel boss retire from his business and disappear forever by becoming the woman he's always dreamed of being."
+    },
+    {
+        "title": "Wicked",
+        "director": "Jon M.Chu",
+        "rating": "N/A",
+        "cast": ["Cynthia Erivo", "Ariana Grande", "Jonathan Bailey"],
+        "year": 2024,
+        "desc": "After two decades as one of the most beloved and enduring musicals on the stage, Wicked makes its long-awaited journey to the big screen as a spectacular, generation-defining cinematic event this holiday season."
+    },
+    {
+        "title": "Wonka",
+        "director": "Paul King",
+        "rating": 7.0,
+        "cast": ["Timothée Chalamet", "Gustave Die", "Murray McArthur"],
+        "year": 2023,
+        "desc": "With dreams of opening a shop in a city renowned for its chocolate, a young and poor Willy Wonka discovers that the industry is run by a cartel of greedy chocolatiers."
+    },
+    {
+        "title": "The Lion King",
+        "director": "Roger Allers, Bob Minkoff",
+        "rating": 8.5,
+        "cast": ["Matthew Broderick", "Jeremy Irons", "James Earl Jones"],
+        "year": 1994,
+        "desc": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself."
+    },
+    {
+        "title": "The Blues Brothers",
+        "director": "John Landis",
+        "rating": 7.9,
+        "cast": ["John Belushi", "Dan Aykroyd", "Cab Calloway"],
+        "year": 1980,
+        "desc": "Jake Blues rejoins with his brother Elwood after being released from prison, but the duo has just days to reunite their old R&B band and save the Catholic home where the two were raised, outrunning the police as they tear through Chicago."
+    },
+    {
+        "title": "A Star Is Born",
+        "director": "Bradley Cooper",
+        "rating": 7.6,
+        "cast": ["Lady Gaga", "Bradley Cooper", "Sam Elliott"],
+        "year": 2018,
+        "desc": "A musician helps a young singer find fame as age and alcoholism send his own career into a downward spiral."
+    },
+    {
+        "title": "Bohemian Rapsody",
+        "director": "Bryan Singer",
+        "rating": 7.9,
+        "cast": ["Rami Malek", "Lucy Boynton", "Gwilym Lee"],
+        "year": 2018,
+        "desc": "The story of the legendary British rock band Queen and lead singer Freddie Mercury, leading up to their famous performance at Live Aid (1985)."
     }
 ],
     "parody": [{
-
+        "title": "Spaceballs",
+        "director": "Mel Brooks",
+        "rating": 7.1,
+        "cast": ["Mel Brooks", "John Candy", "Rick Moranis"],
+        "year": 1987,
+        "desc": "A star-pilot for hire and his trusty sidekick must come to the rescue of a princess and save Planet Druidia from the clutches of the evil Spaceballs."
+    },
+    {
+        "title": "Hot Shots",
+        "director": "Jim Abrahams",
+        "rating": 6.7,
+        "cast": ["Charlie Sheen", "Cary Elwes", "Valeria Golino"],
+        "year": 1991,
+        "desc": "A parody of Top Gun (1986) in which a talented but unstable fighter pilot must overcome the ghosts of his father and save a mission sabotaged by greedy weapons manufacturers."
+    },
+    {
+        "title": "Scarie Movie",
+        "director": "Keenen Ivory Wayans",
+        "rating": 6.3,
+        "cast": ["Anna Faris", "Jon Abrahams", "Marlon Wayans"],
+        "year": 2000,
+        "desc": "A year after disposing of the body of a man they accidentally killed, a group of dumb teenagers are stalked by a bumbling serial killer."
+    },
+    {
+        "title": "Mars Attaks!",
+        "director": "Tim Burton",
+        "rating": 6.4,
+        "cast": ["Jack Nicholson", "Pierce Brosnan", "Sarah Jessica Parker"],
+        "year": 1996,
+        "desc": "Earth is invaded by Martians with unbeatable weapons and a cruel sense of humor."
+    },
+    {
+        "title": "Dracula: Dead and Loving It",
+        "director": "Mel Brooks",
+        "rating": 5.8,
+        "cast": ["Leslie Nielsen", "Mel Brooks", "Peter MacNicol"],
+        "year": 1995,
+        "desc": "Mel Brooks' parody of the classic vampire story and its famous film adaptations."
+    }
+],
+    "romantic": [{
+        "title": "Titanic",
+        "director": "James Cameron",
+        "rating": 7.9,
+        "cast": ["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"],
+        "year": 1997,
+        "desc": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic."
+    },
+    {
+        "title": "Serendipity",
+        "director": "Peter Chelsom",
+        "rating": 6.8,
+        "cast": ["John Cusack", "Kate Beckinsale", "Jeremy Piven"],
+        "year": 2001,
+        "desc": "A couple search for each other years after the night they first met, fell in love, and separated, convinced that one day they'd end up together."
+    },
+    {
+        "title": "Meet Joe Black",
+        "director": "Martin Brest",
+        "rating": 7.2,
+        "cast": ["Brad Pitt", "Anthony Hopkins", "Claire Forlani"],
+        "year": 1998,
+        "desc": "Death, who takes the form of a young man killed in an accident, asks a media mogul to act as his guide to teach him about life on Earth and, in the process, he falls in love with the mogul's daughter."
     }
 ],
     "sci-fi": [{
-
+        "title": "The Last One",
+        "director": "Alexandre Alonso",
+        "rating": 9.8,
+        "cast": ["Alexandre Alonso", "Leonardo Carioca", "Maria Ribeiro"],
+        "year": 2021,
+        "desc": "In the last one, we follow three people from different fields who changed forever after a misfortune. They will cross paths in the most unusual way possible."
+    },
+    {
+        "title": "The Age of Genesis",
+        "director": "Günther Brandl, Helmut Brandl",
+        "rating": 9.0,
+        "cast": ["Peter Eherer", "Claudia Lorenz", "Monika Brandl"],
+        "year": 2020,
+        "desc": "N/A"
+    },
+    {
+        "title": "Megalopolis",
+        "director": "Francis Ford Coppola",
+        "rating": 6.9,
+        "cast": ["Adam Driver", "Giancarlo Esposito", "Nathalie Emmanuel"],
+        "year": 2024,
+        "desc": "An architect wants to rebuild New York City as a utopia following a devastating disaster."
+    },
+    {
+        "title": "Interstellar",
+        "director": "Christopher Nolan",
+        "rating": 8.7,
+        "cast": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+        "year": 2014,
+        "desc": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans."
     }
+
 ],
     "western": [{
-
-    }]
+        "title": "The Good, the Bad and the Ugly",
+        "director": "Sergio Leone",
+        "rating": 8.8,
+        "cast": ["Clint Eastwood", "Eli Wallach", "Lee Van Cleef"],
+        "year": 1966,
+        "desc": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery."
+    },
+    {
+        "title": "The Revenant",
+        "director": "Alejandro G. Iñárritu",
+        "rating": 8.0,
+        "cast": ["Leonardo DiCaprio", "Tom Hardy", "Will Poulter"],
+        "year": 2015,
+        "desc": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team."
+    }
+]
 }
