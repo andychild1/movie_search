@@ -1,14 +1,10 @@
-# movie recommendation software
-# binary search as algorithm
-# data structure for storing movies categories
-# action, adventure, comedy, drama, fantasy, horror, musical, parody, sci-fi, western
-
 from linked_list import LinkedList
 from json import load
 from quicksort import quicksort
+from binary_search import binary_search
 
 
-categories = ["action", "adventure", "comedy", "drama", "fantasy", "horror", "musical", "parody", "sci-fi", "western"]
+categories = ["action", "adventure", "comedy", "drama", "fantasy", "horror", "musical", "parody", "romantic", "sci-fi", "western"]
 
 movies = {}
 
@@ -41,20 +37,23 @@ print(r'''\
 ''')
 
 def prompt_for_input():
-    user_input = input("\n\nWich category of movies would you like to look for?\n")
+    user_input = input("\n\nWich category of movies would you like to look for?\n").lower()
     if user_input == '':
         print("\nEnter a character to search for a category...\n")
         prompt_for_input()
     else:
-        for category in categories:
-            if user_input == category[ :len(user_input)]:
-                res.append(category)
+        target = binary_search(categories, 0, len(categories), user_input)
+        if target == "No match found":
+            return
+        res.append(categories[target])
+        if categories[target -1][ :len(user_input)] == categories[target][ :len(user_input)]:
+            res.append(categories[target -1])
 
 def prompt_if_no_entries():
     while len(res) == 0:
-        list_input = input("\nNo entries for your search...do you wish to see a list of genres available? y/n\n\n")
+        list_input = input("\nNo entries for your search...do you wish to see a list of genres available? y/n\n\n").lower()
         while list_input not in ["y", "n"]:
-            list_input = input("\nPlease enter y/n\n")
+            list_input = input("\nPlease enter y/n\n").lower()
         if list_input == "y":
             string = "|"
             for category in categories:
@@ -65,23 +64,23 @@ def prompt_if_no_entries():
 
 def choose_category():
     if len(res) < 2:
-        user_choice = input(f"\nDo you choose {res[0].capitalize()}? y/n\n")
+        user_choice = input(f"\nDo you choose {res[0].capitalize()}? y/n\n").lower()
         while user_choice not in ["y", "n"]:
-            user_choice = input("\nPlease enter y/n...\n")
+            user_choice = input("\nPlease enter y/n...\n").lower()
         if user_choice == 'y':
             movies[res[0]].print_movies()
         elif user_choice == 'n':
             res.clear()
     
     else:
-        category = input(f"\nThese are the categories available: {res}\n")
+        category = input(f"\nThese are the categories available: {res}\n").lower()
         while category not in res:
-            category = input(f"\nChoose between: {" | ".join(res)}\n")
+            category = input(f"\nPlease enter: {" or: ".join([g.capitalize() for g in res])}\n").lower()
         for genre in res:
             if category == genre[ :len(category)]:
                 choice = input(f"\nDo you choose {genre.capitalize()}? y/n\n")
                 while choice not in ["y", "n"]:
-                    choice = input("\nPlease enter y/n...\n")
+                    choice = input("\nPlease enter y/n...\n").lower()
                 if choice == "y":
                     movies[genre].print_movies()
                 elif choice == "n":
@@ -89,9 +88,9 @@ def choose_category():
 
 
 def search_again():
-    search = input("\nDo you want to look for another category? y/n\n")
+    search = input("\nDo you want to look for another category? y/n\n").lower()
     while search not in ["y", "n"]:
-        search = input("\nPlease, enter y/n\n")
+        search = input("\nPlease, enter y/n\n").lower()
     if search == "y":
         res.clear()
         prompt_for_input()
