@@ -76,7 +76,7 @@ def choose_category():
     else:
         category = input(f"\nThese are the categories available: {res}\n").lower()
         while category not in res:
-            category = input(f"\nPlease enter: {" or: ".join([g.capitalize() for g in res])}\n").lower()
+            category = input(f"\nPlease enter: {' or: '.join([g.capitalize() for g in res])}\n").lower()
         for genre in res:
             if category == genre[ :len(category)]:
                 choice = input(f"\nDo you choose {genre.capitalize()}? y/n\n")

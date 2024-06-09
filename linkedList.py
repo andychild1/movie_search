@@ -15,10 +15,10 @@ class LinkedList:
             if head.get_info():
                 for t in head.get_info():
                     print("\n****************************\n")
-                    print(f"Title: {t["title"]}")
-                    print(f"Director: {t["director"]}")
-                    print(f"Rating: {t["rating"]}/10")
-                    print(f"Cast: {", ".join(t["cast"])}")
-                    print(f"Year: {t["year"]}")
-                    print(f"Trama: {t["desc"]}")
+                    print("Title: {}".format(t["title"]))
+                    print("Director: {}".format(t["director"]))
+                    print("Rating: {}/10".format(t["rating"]))
+                    print("Cast: {}".format(",".join(t["cast"])))
+                    print("Year: {}".format(t["year"]))
+                    print("Trama: {}".format(t["desc"]))
             head = head.get_next()
