@@ -325,6 +325,14 @@
         "cast": ["Naomi Watts", "Martin Henderson", "Brian Cox"],
         "year": 2002,
         "desc": "A journalist must investigate a mysterious videotape which seems to cause the death of anyone one week to the day after they view it."
+    },
+    {
+        "title": "Halloween",
+        "director": "John Carpenter",
+        "rating": 7.7,
+        "cast": ["Donald Pleasance", "Jamie Lee Curtis", "Tony Moran"],
+        "year": 1978,
+        "desc": "Fifteen years after murdering his sister on Halloween night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again."
     }
 ],
     "musical": [{
@@ -448,6 +456,14 @@
         "cast": ["Brad Pitt", "Anthony Hopkins", "Claire Forlani"],
         "year": 1998,
         "desc": "Death, who takes the form of a young man killed in an accident, asks a media mogul to act as his guide to teach him about life on Earth and, in the process, he falls in love with the mogul's daughter."
+    },
+    {
+        "title": "The Notebook",
+        "director": "Nick Cassavetes",
+        "rating": 7.8,
+        "cast": ["Ryan Gosling", "Rachel McAdams", "Gena Rowlands"],
+        "year": 2004,
+        "desc": "An elderly man reads to a woman with dementia the story of two young lovers whose romance is threatened by the difference in their respective social classes."
     }
 ],
     "sci-fi": [{
@@ -496,9 +512,50 @@
         "title": "The Revenant",
         "director": "Alejandro G. Iñárritu",
         "rating": 8.0,
-        "cast": ["Leonardo DiCaprio", "Tom Hardy", "Will Poulter"],
+        "cast": ["Leonardo Di Caprio", "Tom Hardy", "Will Poulter"],
         "year": 2015,
         "desc": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team."
+    },
+    {
+        "title": "Django Unchained",
+        "director": "Quentin Tarantino",
+        "rating": 8.5,
+        "cast": ["Jamie Foxx", "Christoph Waltz", "Leonardo Di Caprio"],
+        "year": 2012,
+        "desc": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi."
+    },
+    {
+        "title": "Tombstone",
+        "director": "Jeorge P. Cosmatos, Kevin Jarre",
+        "rating": 7.8,
+        "cast": ["Kurt Russell", "Val Kilmer", "Sam Elliott"],
+        "year": 1993,
+        "desc": "A successful lawman's plans to retire anonymously in Tombstone, Arizona are disrupted by the kind of outlaws he was famous for eliminating."
+
+    },
+    {
+        "title": "The Hateful Eight",
+        "director": "Quentin Tarantino",
+        "rating": 7.8,
+        "cast": ["Samuel L. Jackson", "Kurt Russell", "Jennifer Jason Leigh"],
+        "year": 2015,
+        "desc": "In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters."
+    },
+    {
+        "title": "Once Upon a Time in the West",
+        "director": "Sergio Leone",
+        "rating": 8.5,
+        "cast": ["Henry Fonda", "Charles Bronson", "Claudia Cardinale"],
+        "year": 1968,
+        "desc": "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad."
+    },
+    {
+        "title": "A Fistful Of Dollars",
+        "director": "Sergio Leone",
+        "rating": 7.9,
+        "cast": ["Clint Eastwood", "Gian Maria Volontè", "Marianne Koch"],
+        "year": 1964,
+        "desc": "A wandering gunfighter plays two rival families against each other in a town torn apart by greed, pride, and revenge."
     }
 ]
 }
